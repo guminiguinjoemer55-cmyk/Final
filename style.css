@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.hero{
+    background-image: url(images/baguio.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.hero h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.card img{
+    height: 250px;
+    object-fit: cover;
+}
+
+.gallery img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.gallery img:hover{
+    transform: scale(1.03);
+}
+
+footer{
+    margin-top: 40px;
+}
